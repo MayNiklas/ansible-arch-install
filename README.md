@@ -19,7 +19,21 @@ ansible-galaxy install -r requirements.yml
 vim host_vars/localhost.yml
 vim group_vars/localhost.yml
 ```
-3. execute the playbook
+The user_password has to be created by using
+```bash
+mkpasswd --method=sha-512
+```
+3. Boot the archiso
+4. Set the root password using  passwd.
+5. Set ChallengeResponseAuthentication yes
+```bash
+vim /etc/ssh/sshd_config
+```
+6. Restart SSH
+```bash
+systemctl restart sshd
+```
+7. execute the playbook on your controller device
 ```bash
 ansible-playbook site.yml
 ```
