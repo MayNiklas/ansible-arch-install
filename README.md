@@ -36,7 +36,11 @@ vim /etc/ssh/sshd_config
 ```bash
 systemctl restart sshd
 ```
-7. execute the playbook on your controller device
+7. Transfer your controllers public key:
+```bash
+ssh-copy-id root@<ip-adress>
+```
+8. execute the playbook on your controller device
 ```bash
 ansible-playbook site.yml
 ```
