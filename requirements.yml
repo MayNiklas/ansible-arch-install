@@ -1,0 +1,3 @@
+- src: 'https://github.com/MayNiklas/ansible-arch-setup.git'
+  name: ansible-arch-setup
+  scm: git
