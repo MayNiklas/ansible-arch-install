@@ -1,4 +1,4 @@
-ansible_host:
+ansible_host: <ip-adress>
 install_drive: /dev/sda
 boot_partition_suffix: 1
 root_partition_suffix: 2
