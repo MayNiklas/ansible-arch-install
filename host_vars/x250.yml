@@ -1,0 +1,6 @@
+ansible_host:
+install_drive: /dev/sda
+boot_partition_suffix: 1
+root_partition_suffix: 2
+wired_interface: enp0s25
+hostname: arch-x250
