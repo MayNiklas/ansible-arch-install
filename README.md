@@ -24,7 +24,10 @@ The user_password has to be created by using
 mkpasswd --method=sha-512
 ```
 3. Boot the archiso
-4. Set the root password using  passwd.
+4. Set the root password
+```bash
+passwd
+```
 5. Set ChallengeResponseAuthentication yes
 ```bash
 vim /etc/ssh/sshd_config
