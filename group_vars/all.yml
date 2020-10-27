@@ -1,2 +1,4 @@
 ---
 ansible_user: root
+user_name: nik
+user_password:
