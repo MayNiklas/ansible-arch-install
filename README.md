@@ -23,6 +23,14 @@ The user_password has to be created by using
 ```bash
 mkpasswd --method=sha-512
 ```
+In case you don't want to install whois/mkpasswd on your system:
+```bash
+docker run --rm -it debian bash
+apt update
+apt install whois
+mkpasswd --method=sha-512
+exit
+``` 
 3. Boot the archiso
 4. Set the root password
 ```bash
