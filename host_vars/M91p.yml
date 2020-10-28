@@ -1,0 +1,8 @@
+ansible_host: <ip-adress>
+install_drive: /dev/sda
+bios_partition_suffix: 1
+hostname: arch-M91p
+bios: true
+intel: true
+xorg: true
+plasma: true
