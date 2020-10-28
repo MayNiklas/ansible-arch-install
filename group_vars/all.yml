@@ -1,4 +1,4 @@
 ---
 ansible_user: root
 user_name: nik
-user_password:
+user_password: <pw_hash>
