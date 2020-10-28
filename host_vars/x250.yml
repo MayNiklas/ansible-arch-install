@@ -3,6 +3,7 @@ install_drive: /dev/sda
 boot_partition_suffix: 1
 root_partition_suffix: 2
 hostname: arch-x250
+efi: true
 intel: true
 bluetooth: true
 xorg: true
