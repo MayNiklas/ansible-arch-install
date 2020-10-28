@@ -6,5 +6,6 @@ hostname: arch-x250
 efi: true
 intel: true
 bluetooth: true
+sshd: false
 xorg: true
 plasma: true
