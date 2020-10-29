@@ -1,7 +1,7 @@
 # ansible-arch-install
-[![Lines Of Code](https://tokei.rs/b1/github/MayNiklas/ansible-arch-setup?category=lines)](https://github.com/XAMPPRocky/tokei)
-[![Lines Of Code](https://tokei.rs/b1/github/MayNiklas/ansible-arch-setup?category=code)](https://github.com/XAMPPRocky/tokei)
-[![Lines Of Code](https://tokei.rs/b1/github/MayNiklas/ansible-arch-setup?category=files)](https://github.com/XAMPPRocky/tokei)
+[![Lines Of Code](https://tokei.rs/b1/github/MayNiklas/ansible-arch-install?category=lines)](https://github.com/XAMPPRocky/tokei)
+[![Lines Of Code](https://tokei.rs/b1/github/MayNiklas/ansible-arch-install?category=code)](https://github.com/XAMPPRocky/tokei)
+[![Lines Of Code](https://tokei.rs/b1/github/MayNiklas/ansible-arch-install?category=files)](https://github.com/XAMPPRocky/tokei)
 
 0. Make sure ansible is on the controller device:
 ```bash
