@@ -25,9 +25,9 @@ To be set in group_vars OR host_vars
 |`efi`| set to true when you want a efi install -> conflicts with bios | `false` |
 |`intel`| set to true when you want to install intel-ucode & mesa | `false` |
 |`amd`| set to true when you want to install amd-ucode | `false` |
-|`nvidia: 1`| set to true when you want to install nvidia & nvidia-settings | `false` |
-|`bluetooth: 1`| set to true when you want to configure bluetooth | `false` |
-|`sshd: 1`| set to true when you want a running sshd server | `false` |
+|`nvidia`| set to true when you want to install nvidia & nvidia-settings | `false` |
+|`bluetooth`| set to true when you want to configure bluetooth | `false` |
+|`sshd`| set to true when you want a running sshd server | `false` |
 |`xorg`| set to true when you want to install xorg packages | `false` |
 |`plasma`| set to true when you want to install plasma & boot into it | `false` |
 
