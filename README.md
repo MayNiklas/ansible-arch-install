@@ -3,14 +3,16 @@
 [![Lines Of Code](https://tokei.rs/b1/github/MayNiklas/ansible-arch-install?category=code)](https://github.com/XAMPPRocky/tokei)
 [![Lines Of Code](https://tokei.rs/b1/github/MayNiklas/ansible-arch-install?category=files)](https://github.com/XAMPPRocky/tokei)
 
+
+### Roles used
+- [ansible-arch-setup](https://github.com/MayNiklas/ansible-arch-setup.git)
+
 0. Make sure ansible is on the controller device:
 ```bash
 # arch
 sudo pacman -S ansible
-
 # debian
 sudo apt-get install ansible
-
 # MacOS
 brew install ansible
 ```
@@ -34,7 +36,7 @@ apt update
 apt install whois
 mkpasswd --method=sha-512
 exit
-``` 
+```
 3. Boot the archiso
 4. Set the root password
 ```bash
