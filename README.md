@@ -7,6 +7,31 @@
 ### Roles used
 - [ansible-arch-setup](https://github.com/MayNiklas/ansible-arch-setup.git)
 
+### Role Variables:
+To be set in group_vars OR host_vars
+
+| Variable       | Description                                  | Default |
+|----------------|----------------------------------------------|---------|
+|`ansible_user`| user used for login into archiso | `root` |
+|`user_name`| name of the user being created | `nik` |
+|`ansible_host`| ip adress of your computer | `<empty>` |
+|`user_password`| hashed pw of the user being created | `<empty>` |
+|`hostname`| hostname that should be set | `arch-workstation`|
+|`install_drive`| path of the drive being used | `/dev/sda` |
+|`bios_partition_suffix`| only relevant when changing the whole task by yourself | `1` |
+|`boot_partition_suffix`| efi partion has the partion number 1 | `1` |
+|`root_partition_suffix`| root partion has the partion number 2 | `2` |
+|`bios`| set to true when you want a bios install -> conflicts with efi | `false` |
+|`efi`| set to true when you want a efi install -> conflicts with bios | `false` |
+|`intel`| set to true when you want to install intel-ucode & mesa | `false` |
+|`amd`| set to true when you want to install amd-ucode | `false` |
+|`nvidia: 1`| set to true when you want to install nvidia & nvidia-settings | `false` |
+|`bluetooth: 1`| set to true when you want to configure bluetooth | `false` |
+|`sshd: 1`| set to true when you want a running sshd server | `false` |
+|`xorg`| set to true when you want to install xorg packages | `false` |
+|`plasma`| set to true when you want to install plasma & boot into it | `false` |
+
+### Quick start
 0. Make sure ansible is on the controller device:
 ```bash
 # arch
