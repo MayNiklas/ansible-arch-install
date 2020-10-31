@@ -4,7 +4,7 @@
 [![Lines Of Code](https://tokei.rs/b1/github/MayNiklas/ansible-arch-install?category=files)](https://github.com/XAMPPRocky/tokei)
 
 ### Intro
-This ansible-playbook is being used for installing Arch Linux on a new computer. Please make sure, that you understand the underlaying roles and what they do before following my quickstart guide.
+This ansible-playbook is being used for installing Arch Linux on a new computer. Please make sure, that you understand the underlaying roles and what they do before following my quickstart guide. I am NOT responsible to anything that might happen by executing my ansible roles. As we are installing a new operating system, [ansible-arch-setup](https://github.com/MayNiklas/ansible-arch-setup.git) is formatting your drive before the install. This leads into dataloss. Don't forget to correctly backup your device!
 
 ### Post install
 My arch install is splitted into "pre and postinstall" ansible-playbooks. 
