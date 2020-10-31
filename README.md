@@ -3,6 +3,13 @@
 [![Lines Of Code](https://tokei.rs/b1/github/MayNiklas/ansible-arch-install?category=code)](https://github.com/XAMPPRocky/tokei)
 [![Lines Of Code](https://tokei.rs/b1/github/MayNiklas/ansible-arch-install?category=files)](https://github.com/XAMPPRocky/tokei)
 
+### Intro
+This ansible-playbook is being used for installing Arch Linux on a new computer. Please make sure, that you understand the underlaying roles and what they do before following my quickstart guide.
+
+### Post install
+My arch install is splitted into "pre and postinstall" ansible-playbooks. 
+There is a second playbook I'm using after the first reboot:
+[ansible-arch](https://github.com/MayNiklas/ansible-arch.git)
 
 ### Roles used
 - [ansible-arch-setup](https://github.com/MayNiklas/ansible-arch-setup.git)
