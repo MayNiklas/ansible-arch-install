@@ -1,7 +1,10 @@
 ansible_host: <ip-adress>
 install_drive: /dev/sda
 boot_partition_suffix: 1
-root_partition_suffix: 2
+swap_partition_suffix: 2
+root_partition_suffix: 3
+swap: true
+swap_size: 16384
 hostname: arch-X250
 efi: true
 intel: true
